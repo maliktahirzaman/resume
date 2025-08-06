@@ -1,0 +1,558 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title> My Sweet </title>
+    <meta charset= "utf-8">
+    <meta http-equiv="x-ua-compartible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<Style>
+    body
+     {
+        margin: 0px;
+        padding: 0px;
+        background: white;
+     }
+     #nav
+      {
+        width: 24%;
+        margin:0px;
+        display: inline-block;
+        height: 100vh;
+        position: fixed;
+        background: white;
+        float: left;
+      }
+      #nav h2
+      {
+        margin-top: 20px;
+        margin-left: 80px;
+      }
+      #nav .as1
+       {
+        margin-top: 60px;
+       }
+       #nav .as3
+       {
+        margin-top: 0px;
+       }
+      #nav a
+      {
+        padding: 6px 20px;
+        width: 81.9%;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 19px;
+        color: grey;
+        margin-left: 57px;
+        margin-top: 0px;
+      }
+      
+      #nav a:hover
+      {
+        background: rgb(0, 0, 0, 0.10);
+        color: black;
+      }
+      #nav #nav1
+      {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: none;
+      }
+      #nav #nav1 a
+      {
+        padding: 6px 20px;
+        width: 68.4%;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-left: 100px;
+        color: grey;
+      }
+      #nav #nav1 a:hover
+      {
+        background: rgb(0, 0, 0, 0.10);
+        color: black;
+      }
+      #nav .cns
+      {
+        margin-top: 145px;
+      }
+      #nav .cns h4
+      {
+        padding: 6px 20px;
+        width: 81.9%;
+        display: inline-block;
+        font-size: 19px;
+        cursor: pointer;
+        color: grey;
+        margin-left: 57px;
+        margin-top: 0px;
+      }
+      #nav .cns h4:hover
+      {
+       background: rgb(0, 0, 0, 0.10);
+       color: black;
+      }
+      #nav #cns2
+      {
+        width: 100%;
+        display: none;
+        height: 100%;
+        background: rgb(0,0, 0, 0.20);
+        left: 0px;
+        top: 0px;
+        position: fixed;
+        z-index: 100;
+      }
+      #nav #cns2 .cns3
+      {
+        width: 65%;
+        height: 280px;
+        text-align: center;
+        background: white;
+        display: inline-block;
+        margin-left: 17.5%;
+        margin-top: 110px;
+      }
+      #nav #cns2 .cns3 h1
+      {
+        margin-top: 30px;
+        width: 400px;
+        margin-left: 224px;
+        letter-spacing: 10px;
+      }
+      #nav #cns2 .cns3 input[type=email]
+      {
+        width: 96%;
+        padding: 7px 10px;
+      }
+      #nav #cns2 .cns3 button
+      {
+        padding: 12px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        background: red;
+        color: white;
+        border: none;
+      }
+      #nav #cns2 .cns3 button:hover
+      {
+        background: grey;
+        color: black;
+      }
+      #nav #cns2 .cns3 span
+      {
+        float: right;
+        margin-top: 25px;
+        padding: 2px 10px;
+        margin-right: 3%;
+        cursor: pointer;
+        font-size: 35px;
+      }
+      #nav #cns2 .cns3 span:hover
+       {
+        background: rgb(0, 0, 0, 0.20);
+       }
+      #home
+      {
+        display: inline-block;
+        width: 70%;
+        margin: 0px;
+        height: 100vh;
+        margin-left: 24%;
+      }
+      #home .home1
+      {
+        width: 100%;
+        background: white;
+        margin: 0px;
+        display: flex;
+        height: 70px;
+      }
+      #home .home1 h2
+      {
+        width: 120px;
+        height: 70px;
+        margin-top: 0px;
+        margin-left: 10px;
+        padding: 10px;
+      }
+       #home .home1 .hmn
+       {
+        margin-left: 725px;
+       }
+      #home .home1 i
+      {
+        padding: 23px 10px;
+        font-size: 25px;
+      }
+      #home .home2
+      {
+        width: 100%;
+        height: 610px;
+        margin-top: 5px;
+        background: url('pexels-juan-mendez-1536619.jpg');
+        background-size: 100% 100%;
+        display: inline-block;
+      }
+      #home .home2 h1
+      {
+        margin-top: 30px;
+        margin-left: 30px;
+        color: white;
+        font-size: 75px;
+      }
+      #home .home2 h2
+      {
+        margin-top: 0px;
+        color: white;
+        font-size:42px;
+        margin-left: 30px;
+      }
+      #home .home2 a
+      {
+        text-decoration: none;
+        padding: 13px 20px;
+        margin-left: 30px;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 10px;
+        background: black;
+        color: white;
+      }
+      #home .home2 a:hover
+      {
+        background: #ccc;
+        color: black;
+      }
+      #home #about
+      {
+        width: 100%;
+        height: 40px;
+        padding: 0px 10px;
+      }
+      #home .about1
+      {
+        width: 100%;
+        height: 350px;
+        display: flex;
+      }
+      #home .about1 .about2
+      {
+        width: 210px;
+        height: 340px;
+        margin-left: 21px;
+      }
+      #home .about1 .about89
+      {
+        margin-left: 10px;
+      }
+      #home .about1 .about2 img
+      {
+        width: 210px;
+        height: 260px;
+        position: absolute;
+        display: inline-block;
+        margin: 0px;
+        z-index: -1;
+      }
+      #home .about1 .about2 h6
+      {
+        margin-top: 270px;
+      }
+      #home .about1 .about22 h6
+      {
+        margin-top: 3px;
+      }
+      #home .about1 .about22 h4
+      {
+        margin-top: 0px;
+        font-size: 15px;
+        background: black;
+        color: white;
+        width: 43px;
+        padding: 0px 5px;
+      }
+      #home .about1 .about2 strong
+      {
+        font-weight: 100;
+      }
+      #home .about1 .about22 strong
+      {
+        color: red;
+      }
+      #home .about1 .about2 .bu
+      {
+        width: 100%;
+        height: 260px;
+        background: rbg(0, 0, 0, 0.20);
+        display: inline-block;
+      }
+      #home .about1 .about2 .bu #bu1
+      {
+        color: white;
+        width: 120px;
+        cursor: pointer;
+        padding: 0px 10px;
+        margin-left: 35px;
+        margin-top: 80px;
+        display: none;
+        background: black;
+      }
+      #home .about1 .about2 .bu #bu11
+      {
+        color: white;
+        width: 120px;
+        cursor: pointer;
+        padding: 0px 10px;
+        margin-left: 35px;
+        margin-top: 80px;
+        display: none;
+        background: black;
+      }
+      #home .about1 .about2 #bu1:hover
+      {
+        background: #ccc;
+        color: black;
+      }
+      .sb
+      {
+        width:100%;
+        height: 300px;
+        background: black;
+        display: inline-block;
+        color: white;
+      }
+      .sb h1
+      {
+        margin-left: 2%;
+        margin-top: 30px;
+        font-size: 50px;
+      }
+      .sb p
+      {
+        margin-left: 2%;
+      }
+      .sb input[type=email]
+      {
+        padding: 10px 10px;
+        width: 96%;
+        border: none;
+        margin-left: 2%;
+      }
+      .sb button
+      {
+        padding: 7px 12px;
+        margin-left: 2%;
+        border: none;
+        cursor: pointer;
+        margin-top: 16px;
+        background: red;
+        color: white;
+      }
+      .sb button:hover
+      {
+        background: grey;
+        color: black;
+      }
+      #contact
+      {
+        width: 100%;
+        display: flex;
+        height: 450px;
+        background: #ccc;
+      }
+      #contact .ct1
+      {
+        width: 32%;
+        margin-left: 30px;
+        height: 450px;
+      }
+      #contact .ct1 h3
+      {
+        text-align: center;
+        margin-top:50px;
+      }
+      #contact .ct1 h6
+      {
+        text-align: center;
+      }
+      #contact .ct1 input[type=text]
+      {
+        width: 100%;
+        padding: 7px 10px;
+        font-size: 13px;
+        margin-top: 10px;
+      }
+      #contact .ct1 input[type=email]
+      {
+        width: 100%;
+        padding: 7px 10px;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+      #contact .ct1 button
+      {
+        padding:8px 0px;
+        width: 100%;
+        margin-top: 15px;
+        background: black;
+        font-size: 13px;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+      }
+      #contact .ct1 button:hover
+      {
+        background: grey;
+        color: black;
+      }
+      #contact .ct2
+      {
+        width: 15%;
+        height: 450px;
+        margin-left: 80px;
+        text-align: center;
+      }
+      #contact .ct2 h3
+      {
+        text-align: center;
+        margin-top:50px;
+      }
+      #contact .ct2 a
+      {
+        width: 100%;
+        display: inline-block;
+        margin-top: 8px;
+      }
+      #contact .ct3
+      {
+        width: 15%;
+        height: 450px;
+        margin-left: 80px;
+      }
+      #contact .ct3 h3
+      {
+        text-align: left;
+        margin-top:50px;
+        margin-left:6px;
+      }
+      #contact .ct3 h6
+      {
+        text-align: left;
+        margin-left:6px;
+        margin-top: 13px;
+      }
+      #contact .ct3 .wat
+      {
+        text-align: left;
+        margin-left:6px;
+        margin-top:15px;
+      }
+      #contact .ct3 .icons a
+      {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+      #contact .ct3 .icons .ic
+      {
+        margin-left: 6px;
+      }
+      .footer
+      {
+        width: 100%;
+        height: 100px;
+        background: black;
+        display: inline-block;
+        margin-top: 0px;
+        color: white;
+      }
+      .footer h6
+      {
+        text-align: center;
+        margin-top: 35px;
+      }
+</Style>
+<body>
+    <nav id="nav">
+        <h2>LOGO</h2>
+        <a class="as1" href="#">Shirts</a>
+        <a href="#">Dresses</a>
+        <a id="as2" onclick="w10_open()" href="#">Jeans <i class="fa fa-caret-down"></i></a>
+        <div id="nav1"><a href="#"><i class="fa fa-caret-right w3-margin-right"></i> Skinny</a><a href="#">Relaxed</a><a href="#">Bootcut</a><a href="#">Straight</a></div>
+        <a class="as3"href="#">Jackets</a><a href="#">Gymwear</a><a href="#">Blazers</a><a href="#">Shoes</a>
+        <div class="cns"><h4>Contact</h4><h4 onclick="w_11_open()">Newsletter</h4><h4>Subscribe</h4></div>
+        <div id="cns2"><div class="cns3"><span onclick="w_12_close()"><i class="fa">&#xf00d;</i></span><h1>NEWSLETTER</h1><p>Join our mailing list to receive updates on new arrivals and special offers.</p><form action="/action_page.php" target="_blank"><input type="email" name="name" required name="email" placeholder="Enter e-mail"><button>Subscribe</button></form></div></div>
+    </nav>
+    <div id="home"><div class="home1"><h2>Jeans</h2><i class="hmn fa">&#xf07a;</i><i class="fa fa-search"></i></div>
+    <diV class="home2"><h1>New arrivals</h1><h2>COLLECTION 2016</h2><a href="#about">SHOP NOW</a></diV>
+    <h6 id="about">8 items</h6>
+    <div class="about1">
+        <div class="about2 about89"><img src="pexels-connor-mcmanus-15761176.jpg"><h6>Ripped Skinny Jeans</h6><strong>$24.99</strong></div>
+        <div class="about2 about22"><img src="pexels-ricardo-acevedo-1375736.jpg"><div class="bu" onmouseover="mouseOver()" onmouseout="mouseOut()"><h4>NEW</h4><h5 id="bu1">BUY NOW<i class="fa">&#xf07a;</i></h5></div><h6>Mega Ripped Jeans</h6><strong>$19.99</strong></div>
+        <div class="about2"><img src="pexels-evg-kowalievska-1381556.jpg"><h6>Washed Skinny Jeans</h6><strong>$20.50</strong></div>
+        <div class="about2"><img src="pexels-jaysen-scott-1858488.jpg"><h6>Vintage Skinny Jeans</h6><strong>$14.99</strong></div>
+    </div>
+    <div class="about1">
+        <div class="about2 about89"><img src="pexels-pixabay-160599.jpg"><h6>Mega Ripped Jeans</h6><strong>$19.99</strong></div>
+        <div class="about2"><img src="pexels-pixabay-89785.jpg"><h6>Washed Skinny Jeans</h6><strong>$20.50</strong></div>
+        <div class="about2 about22"><img src="pexels-thức-lê-hữu-1390602.jpg"><div class="bu" onmouseover="mouseOver1()" onmouseout="mouseOut1()"><h4>Sale</h4><h5 id="bu11">BUY NOW<i class="fa">&#xf07a;</i></h5></div><h6>Vintage Skinny Jeans</h6><strong>$19.99</strong></div>
+        <div class="about2"><img src="pexels-irina-iriser-1393509.jpg"><h6>Ripped Skinny Jeans</h6><strong>$24.99</strong></div>
+    </div>
+    <div class="sb"><h1>Subscribe</h1><p>To get special offers and VIP treatment:</p><input type="email" name="name" placeholder="Email e-mail"><button type="submit">Subscribe</button></div>
+    <div id="contact"><div class="ct1"><h3>Contact</h3><h6>Questions? Go ahead.</h6><form class="were11" action="/action_page.php" target="_blank"><input type="text" name="name" placeholder="Name" required name="name"><input type="email" name="name" placeholder="Email" required name="email"><input type="text" name="name" placeholder="Subject" required name="subject"><input type="text" name="name" placeholder="Message" required name="message"><button>SEND</button></form></div>
+    <div class="ct2"><h3>About</h3><a href="#">About us</a><br><a href="#">Were hiring</a><br><a href="#">Support</a><br><a href="#">Fino store</a><br><a href="#">Shipment</a><br><a href="#">Payment</a><br><a href="#">Gift card</a><br><a href="#">Return</a><br><a href="#">Help</a></div>
+    <div class="ct3"><h3>Store</h3><h6><i class="fa">&#xf041;</i> Company Name</h6><h6><i class="fa">&#xf095;</i> 0044123123</h6><h6><i class="fa">&#xf0e0;</i> ex@mail.com</h6><h3 class="wat">We accept</h3><h6><i class="fa">&#xf1f3;</i> Amex</h6><h6><i class="fa">&#xf09d;</i> Credit Card</h6>
+    <div class="icons"><a href="#" class=" ic fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a></div></div>
+    </div>
+    <div class="footer"><h6>Powered by <a href="#">w3.css</a></h6></div>
+    </div>
+    <script>
+        function mouseOver() {
+  document.getElementById("bu1").style.display = "inline-block";
+}
+
+function mouseOut() {
+  document.getElementById("bu1").style.display = "none";
+}
+        function mouseOver1() {
+  document.getElementById("bu11").style.display = "inline-block";
+}
+
+function mouseOut1() {
+  document.getElementById("bu11").style.display = "none";
+}
+function w10_open() {
+  document.getElementById('as2');
+  document.getElementById('nav1');
+  if (nav1.style.display !='block') {
+    nav1.style.display ='block';
+  }
+  else
+  {
+    nav1.style.display ='none';
+  }
+}
+function w_11_open() {
+  document.getElementById("cns2").style.display = "inline-block";
+}
+
+function w_12_close() {
+  document.getElementById("cns2").style.display = "none";
+}
+    </script>
+</body>
+</html>
